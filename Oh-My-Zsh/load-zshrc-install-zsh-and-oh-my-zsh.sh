@@ -15,4 +15,3 @@ sudo chsh -s $(which zsh)
 
 # Add .zshrc settings
 sudo rm -rf ~/.zshrc && sudo cp .zshrc ~
-

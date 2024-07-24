@@ -15,7 +15,7 @@ pipx install ignr
 pipx ensurepath
 
 
-# Httpie
+# HTTPie
 pipx install httpie
 pipx ensurepath
 
@@ -23,9 +23,9 @@ pipx ensurepath
 # Pyenv
 
 # Some dependencies
-sudo apt install -y 
+sudo apt install -y
 	make build-essential libssl-dev zlib1g-dev libbz2-dev libreadline-dev \
-  libsqlite3-dev wget llvm libncursesw5-dev xz-utils tk-dev libxml2-dev \
+    libsqlite3-dev wget llvm libncursesw5-dev xz-utils tk-dev libxml2-dev \
 	libxmlsec1-dev libffi-dev liblzma-dev
 
 alias brew='env PATH="${PATH//$(pyenv root)\/shims:/}" brew'
@@ -33,4 +33,3 @@ curl https://pyenv.run | bash
 echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.zshrc
 echo '[[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.zshrc
 echo 'eval "$(pyenv init -)"' >> ~/.zshrc
-
